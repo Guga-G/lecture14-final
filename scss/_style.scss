@@ -1,0 +1,282 @@
+// Header
+
+header {
+    max-width: 1780px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 470px;
+    img {
+        max-width: 27px;
+        height: 27px;
+        margin-right: 32px;
+    }
+    h5 {
+        font-family: "Proxima Nova Alt Lt", sans-serif;
+        font-size: 20px;
+        color: #4468e2;
+        width: 66px;
+    }
+    nav {
+        max-width: 601px;
+        width: 100%;
+        height: 26px;
+        ul {
+            display: flex;
+            gap: 74px;
+            li a {
+                font-family: "Proxima Nova Alt Lt", sans-serif;
+                font-size: 22px;
+                color: #1c4961;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.header-1st-img {
+    @include header-1st-img;
+}
+
+.header-2nd-img {
+    @include header-2nd-img;
+    h5 {
+        font-family: "Proxima Nova Alt Lt", sans-serif;
+        font-size: 19px;
+        color: white;
+        font-weight: 600;
+    }
+}
+
+// Section 1
+
+.s-1 {
+    margin: 0 auto;
+    .background {
+        margin: 0 auto;
+        max-width: 1780px;
+        height: 608px;
+        background-image: url("../images/lalo-hernandez-Amo08.png");
+        border-radius: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .travel-to-explore {
+            h3 {
+                font-family: "Montserrat", sans-serif;
+                max-width: 445px;
+                height: 62px;
+                font-size: 50px;
+                font-weight: 800px;
+                text-align: left;
+                color: white;
+            }
+            h5 {
+                max-width: 522px;
+                height: 98px;
+                font-family: "Proxima Nova Alt Lt", sans-serif;
+                font-size: 22px;
+                text-align: center;
+                line-height: 33px;
+                color: white;
+                margin-bottom: 39px;
+            }
+        }
+    }
+}
+
+.wide-box {
+    max-width: 880px;
+    width: 100%;
+    height: 105px;
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(
+        100deg,
+        rgba(255, 255, 255, 1) 75%,
+        rgba(130, 255, 252, 1) 85%,
+        rgba(180, 198, 238, 1) 99%
+    );
+    background: -webkit-linear-gradient(
+        100deg,
+        rgba(255, 255, 255, 1) 75%,
+        rgba(130, 255, 252, 1) 85%,
+        rgba(180, 198, 238, 1) 99%
+    );
+    background: linear-gradient(
+        100deg,
+        rgba(255, 255, 255, 1) 75%,
+        rgba(130, 255, 252, 1) 85%,
+        rgba(180, 198, 238, 1) 99%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b4c6ee",GradientType=1);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    .check-in-out {
+        max-width: 95px;
+        width: 100%;
+        height: 47px;
+        h4 {
+            font-family: "Proxima Nova Alt Lt", sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: #151515;
+            text-align: left;
+            margin-bottom: 9px;
+        }
+        h3 {
+            font-family: "Proxima Nova Alt Lt", sans-serif;
+            font-size: 16px;
+            text-align: left;
+            color: #7e7e7e;
+            opacity: 0.8;
+            margin-bottom: 5px;
+        }
+    }
+    .explore-button {
+        max-width: 187px;
+        width: 100%;
+        height: 63px;
+        background-color: #4468e2;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 a {
+            font-family: "Proxima Nova Alt Lt", sans-serif;
+            font-weight: 600;
+            font-size: 21px;
+            color: white;
+        }
+    }
+    .line {
+        height: 55px;
+    }
+    .mycard1 {
+        max-width: 230px;
+        height: 47px;
+        display: flex;
+        flex-direction: column;
+        h4 {
+            max-width: 210px;
+            font-family: "Proxima Nova Alt Lt", sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: #151515;
+            text-align: left;
+            margin-bottom: 9px;
+        }
+        .search-img {
+            width: 14px;
+            height: 14px;
+        }
+        .search-form {
+            max-width: 175px;
+            width: 100%;
+            display: flex;
+
+            #search {
+                max-width: 153px;
+                width: 100%;
+                height: 18px;
+                border: 0px;
+                margin-left: 7px;
+            }
+        }
+    }
+}
+
+::placeholder {
+    color: #7e7e7e;
+    opacity: 0.8;
+}
+
+// Section 2
+
+.s-2 {
+    margin: 0 auto;
+    margin-top: 178px;
+    .mycontainer {
+        @include mycontainer;
+        .mycard2 {
+            max-width: 370px;
+            width: 100%;
+            height: 295px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            filter: drop-shadow(10px 40px 25px rgba(229, 233, 246, 0.4));
+            padding-top: 29px;
+            padding-left: 26px;
+            .rectangle {
+                max-width: 105px;
+                width: 100%;
+                height: 97px;
+                border-radius: 12px;
+                display: flex;
+                background-color: #f0f4fc;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 15px;
+            }
+            h3 {
+                font-family: "Proxima Nova Alt Lt", sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+                text-align: left;
+                color: #0f0f0f;
+                margin-bottom: 23px;
+            }
+            h5 {
+                font-family: "Proxima Nova Alt Lt", sans-serif;
+                font-size: 20px;
+                text-align: left;
+                color: #0f0f0f;
+            }
+        }
+    }
+}
+
+// Section 3
+
+.s-3 {
+    margin: 0 auto;
+    margin-top: 244px;
+    .mycontainer {
+        @include mycontainer;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+            font-family: "Proxima Nova Alt Lt", sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            color: #000000;
+            padding-top: 65px;
+            padding-bottom: 84px;
+        }
+        nav {
+            max-width: 1215px;
+            width: 100%;
+            ul {
+                display: flex;
+                gap: 100px;
+                justify-content: center;
+                li {
+                    font-family: "Proxima Nova Alt Lt", sans-serif;
+                    font-size: 26px;
+                    font-weight: normal;
+                    font-style: normal;
+                    color: #163235;
+                    margin-bottom: 78px;
+                }
+            }
+        }
+    }
+}
