@@ -9,8 +9,8 @@ header {
     justify-content: space-around;
     gap: 470px;
     img {
-        max-width: 27px;
-        height: 27px;
+        max-width: 55px;
+        height: 55px;
         margin-right: 32px;
     }
     h5 {
@@ -247,11 +247,36 @@ header {
 
 .s-3 {
     margin: 0 auto;
-    margin-top: 244px;
+    margin-top: 214px;
     .mycontainer {
         @include mycontainer;
         flex-direction: column;
         align-items: center;
+        .card-container {
+            @include card-container;
+        }
+        .mycard {
+            .card-wrapper {
+                @include card-wrapper;
+            }
+            @include mycard;
+            .right-part {
+                @include right-part;
+            }
+            .left-part {
+                @include left-part;
+                h5 {
+                    font-family: "Proxima Nova Alt Lt", sans-serif;
+                    font-size: 22px;
+                    font-weight: normal;
+                    text-align: left;
+                    color: #163235;
+                    max-width: 100px;
+                    width: 100%;
+                    height: 27px;
+                }
+            }
+        }
         h2 {
             font-family: "Proxima Nova Alt Lt", sans-serif;
             font-size: 40px;
@@ -278,5 +303,152 @@ header {
                 }
             }
         }
+    }
+}
+
+.bluedots-1 {
+    position: absolute;
+    top: 1607px;
+    left: 7px;
+}
+
+.bluedots-2 {
+    position: absolute;
+    top: 2815px;
+    left: 1750px;
+}
+
+// Section 4
+
+.s-4 {
+    margin: 0 auto;
+    margin-top: 100px;
+    h2 {
+        font-family: "Proxima Nova Alt Lt", sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        font-style: normal;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 74px;
+    }
+    .card-container {
+        @include card-container;
+        justify-content: space-around;
+        margin-bottom: 179px;
+        .left-card {
+            @include left-card;
+        }
+        .right-cards {
+            @include right-cards;
+        }
+    }
+}
+
+.quotes {
+    @include quotes;
+    img {
+        max-width: 53px;
+        width: 100%;
+        height: 42px;
+        margin-left: 23px;
+    }
+    .card-left-right {
+        display: flex;
+        max-width: 918px;
+        width: 100%;
+        height: 360px;
+        border-radius: 18px;
+        filter: drop-shadow(10px 40px 25px rgba(229, 233, 246, 0.4));
+        background: #ffffff;
+        margin-top: 71px;
+        .shalini {
+            max-width: 70px;
+            width: 100%;
+            height: 70px;
+            position: absolute;
+            top: 225px;
+            left: 75px;
+        }
+        p {
+            font-family: "Proxima Nova Alt Lt", sans-serif;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 38px;
+            text-align: left;
+            color: #848484;
+            position: absolute;
+            top: 225px;
+            left: 195px;
+        }
+        p::first-line {
+            font-family: "Proxima Nova Alt Lt", sans-serif;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 38px;
+            text-align: left;
+            color: #000000;
+        }
+        h5 {
+            max-width: 808px;
+            width: 100%;
+            height: 196px;
+            font-family: "Proxima Nova Alt Lt", sans-serif;
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 41px;
+            color: #000000;
+            margin-left: 25px;
+        }
+    }
+}
+
+// Footer
+
+footer {
+    max-width: 1780px;
+    width: 100%;
+    height: 178px;
+    border-radius: 18px;
+    background-color: #e1e8f8;
+    margin: 0 auto;
+    margin-top: 178px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    img {
+        max-width: 45px;
+        width: 100%;
+        height: 45px;
+    }
+    h5 {
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 60px;
+        color: #000000;
+    }
+    nav {
+        max-width: 601px;
+        width: 100%;
+        height: 26px;
+        ul {
+            display: flex;
+            gap: 74px;
+            li a {
+                font-family: "Proxima Nova", sans-serif;
+                font-size: 24px;
+                color: #000000;
+                opacity: 0.55;
+                font-weight: 400;
+            }
+        }
+    }
+    .footer-images {
+        max-width: 175px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
 }
