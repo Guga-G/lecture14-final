@@ -456,12 +456,30 @@ footer {
         ul {
             display: flex;
             gap: 74px;
+            li {
+                transition-duration: 1s;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            li:hover {
+                background-color: #4468e2;
+                border-radius: 18px;
+                padding-top: 5px;
+                padding-right: 10px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+            }
             li a {
                 font-family: "Proxima Nova", sans-serif;
                 font-size: 24px;
                 color: #000000;
                 opacity: 0.55;
                 font-weight: 400;
+            }
+
+            li a:hover {
+                color: white;
             }
         }
     }

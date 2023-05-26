@@ -763,12 +763,28 @@ footer nav ul {
   display: flex;
   gap: 74px;
 }
+footer nav ul li {
+  transition-duration: 1s;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+footer nav ul li:hover {
+  background-color: #4468e2;
+  border-radius: 18px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
 footer nav ul li a {
   font-family: "Proxima Nova", sans-serif;
   font-size: 24px;
   color: #000000;
   opacity: 0.55;
   font-weight: 400;
+}
+footer nav ul li a:hover {
+  color: white;
 }
 footer .footer-images {
   max-width: 175px;
