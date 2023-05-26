@@ -141,6 +141,14 @@ a {
   box-sizing: border-box;
 }
 
+.myplacescontainer .mycardcontainer .places-card img {
+  max-width: 270px;
+  width: 100%;
+  height: 181px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
 header {
   max-width: 1780px;
   height: 70px;
@@ -729,7 +737,7 @@ footer h5 {
   color: #000000;
 }
 footer nav {
-  max-width: 601px;
+  max-width: 710px;
   width: 100%;
   height: 26px;
 }
@@ -749,4 +757,131 @@ footer .footer-images {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.contacts {
+  display: flex;
+  height: 105px;
+  max-width: 350px;
+}
+.contacts h5 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #848484;
+  line-height: 25px;
+  max-width: 260px;
+  width: 100%;
+}
+.contacts h5::first-line {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.map {
+  max-width: 850px;
+  width: 100%;
+  height: 465px;
+}
+
+.contacts-container {
+  max-width: 1780px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 600px;
+}
+
+.myplacescontainer {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.myplacescontainer .mycardcontainer {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+@media (max-width: 1360px) {
+  .myplacescontainer .mycardcontainer {
+    max-width: 600px;
+    justify-content: center;
+  }
+}
+@media (max-width: 1000px) {
+  .myplacescontainer .mycardcontainer {
+    max-width: 1000px;
+  }
+}
+.myplacescontainer .mycardcontainer .places-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  height: 320px;
+}
+@media (max-width: 1360px) {
+  .myplacescontainer .mycardcontainer .places-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+  }
+}
+.myplacescontainer .mycardcontainer .places-card h1 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 700;
+  color: #000000;
+  line-height: 22px;
+  max-width: 260px;
+  height: 22px;
+  margin-bottom: 8px;
+}
+.myplacescontainer .mycardcontainer .places-card h2 {
+  max-width: 270px;
+  width: 100%;
+  height: 60px;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #848484;
+  text-align: left;
+}
+@media (max-width: 1360px) {
+  .myplacescontainer .mycardcontainer .places-card img {
+    max-width: 320px;
+  }
+}
+.myplacescontainer .places {
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.myplacescontainer .places h2 {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 14px;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 24px;
+  text-align: left;
+  font-weight: 700;
+  color: #000000;
+}
+.myplacescontainer .places h3 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #848484;
 }/*# sourceMappingURL=global.css.map */

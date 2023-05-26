@@ -215,3 +215,38 @@
     justify-content: space-between;
     gap: 70px;
 }
+
+@mixin contacts {
+    display: flex;
+    height: 105px;
+    max-width: 350px;
+}
+
+@mixin myplacescontainer {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin mycardcontainer {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    @media (max-width: 1360px) {
+        max-width: 600px;
+        justify-content: center;
+    }
+    @media (max-width: 1000px) {
+        max-width: 1000px;
+    }
+}
+
+@mixin mycards($direction, $width) {
+    display: flex;
+    flex-direction: $direction;
+    max-width: $width;
+}
