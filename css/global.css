@@ -180,6 +180,8 @@ header nav ul {
 }
 header nav ul li {
   transition-duration: 1s;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 header nav ul li:hover {
   background-color: #b4c6ee;
