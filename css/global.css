@@ -198,6 +198,13 @@ header nav ul li a {
   font-weight: 400;
 }
 
+.active {
+  font-family: "Proxima Nova Alt Lt", sans-serif;
+  font-size: 22px;
+  color: #1c4961;
+  font-weight: 700;
+}
+
 .header-1st-img {
   max-width: 130px;
   width: 100%;
@@ -538,7 +545,7 @@ header nav ul li a {
   padding-bottom: 84px;
 }
 .s-3 .mycontainer nav {
-  max-width: 1235px;
+  max-width: 1250px;
   width: 100%;
   margin-bottom: 78px;
 }
@@ -546,9 +553,7 @@ header nav ul li a {
   display: flex;
   gap: 100px;
   justify-content: center;
-  border: 2px solid #4468e2;
   height: 31px;
-  border-radius: 12px;
   padding-right: 5px;
   padding-left: 5px;
 }
@@ -558,6 +563,10 @@ header nav ul li a {
   font-weight: normal;
   font-style: normal;
   color: #163235;
+}
+.s-3 .mycontainer nav ul li:hover {
+  cursor: pointer;
+  font-weight: 700;
 }
 
 .bluedots-1 {
@@ -572,6 +581,115 @@ header nav ul li a {
   left: 1750px;
 }
 
+.testimonals-s-2 {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.testimonals-s-2 h2 {
+  font-family: "Proxima Nova Alt Lt", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 55px;
+}
+
+.forms {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  max-width: 720px;
+  width: 100%;
+}
+
+.submitform {
+  max-width: 352px;
+  width: 100%;
+}
+
+form {
+  max-width: 720px;
+}
+
+textarea {
+  width: 100%;
+  height: 288px;
+  border-color: #e8e8e8;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 14px;
+  background: #f8f8f8;
+  font-family: "Proxima Nova Alt Lt", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 13px;
+  font-style: normal;
+  text-align: left;
+  resize: none;
+  padding-top: 24px;
+  padding-left: 20px;
+}
+
+input[type=text] {
+  max-width: 352px;
+  width: 100%;
+  height: 60px;
+  border-color: #e8e8e8;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 14px;
+  background: #f8f8f8;
+  font-family: "Proxima Nova Alt Lt", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 13px;
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+
+input[type=email] {
+  font-family: "Proxima Nova Alt Lt", sans-serif;
+  font-size: 20px;
+  max-width: 352px;
+  width: 100%;
+  height: 60px;
+  border-color: #e8e8e8;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 14px;
+  background: #f8f8f8;
+  padding-left: 20px;
+}
+
+input[type=submit] {
+  font-family: "Proxima Nova Alt Lt", sans-serif;
+  max-width: 352px;
+  width: 100%;
+  height: 60px;
+  background: #4468e2;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 56px;
+  color: #ffffff;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+::-moz-placeholder {
+  color: #cecece;
+}
+
+::placeholder {
+  color: #cecece;
+}
+
 .s-4 {
   margin: 0 auto;
   margin-top: 100px;
@@ -579,7 +697,7 @@ header nav ul li a {
 .s-4 h2 {
   font-family: "Proxima Nova Alt Lt", sans-serif;
   font-size: 40px;
-  font-weight: 800;
+  font-weight: 700;
   font-style: normal;
   text-align: center;
   color: #000000;
@@ -730,7 +848,7 @@ header nav ul li a {
 }
 
 .s-5 {
-  max-width: 1780px;
+  max-width: 1160px;
   width: 100%;
   margin: 0 auto;
   margin-top: 100px;
@@ -774,9 +892,13 @@ header nav ul li a {
   flex-direction: column;
   position: relative;
 }
+.s-5 .mycontainer .s5-card:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
 .s-5 .mycontainer .s5-card h4 {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   text-align: left;
@@ -787,7 +909,7 @@ header nav ul li a {
 }
 .s-5 .mycontainer .s5-card h5 {
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   max-width: 360px;
   width: 100%;
   height: 180px;
@@ -802,7 +924,7 @@ header nav ul li a {
 }
 
 .s-6 {
-  max-width: 1780px;
+  max-width: 1160px;
   width: 100%;
   margin: 0 auto;
   margin-top: 58px;
@@ -850,7 +972,7 @@ header nav ul li a {
 }
 .s-6 .mycontainer .s6-card h5 {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   text-align: left;
@@ -933,6 +1055,14 @@ footer .footer-images {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.active-2 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 24px;
+  color: #000000;
+  opacity: 0.55;
+  font-weight: 700;
 }
 
 .contacts {
