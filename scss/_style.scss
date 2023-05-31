@@ -2,12 +2,19 @@
 
 header {
     max-width: 1780px;
+    width: 100%;
     height: 70px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 470px;
+    @media (max-width: 1770px) {
+        gap: 300px;
+    }
+    @media (max-width: 1600px) {
+        gap: 235px;
+    }
     img {
         max-width: 55px;
         height: 55px;
@@ -79,6 +86,7 @@ header {
     .background {
         margin: 0 auto;
         max-width: 1780px;
+        width: 100%;
         height: 608px;
         background-image: url("../images/lalo-hernandez-Amo08.png");
         border-radius: 18px;
@@ -86,6 +94,10 @@ header {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        @media (max-width: 1770px) {
+            width: 94%;
+        }
+
         .travel-to-explore {
             h3 {
                 font-family: "Montserrat", sans-serif;
@@ -226,6 +238,9 @@ header {
     margin-top: 178px;
     .mycontainer {
         @include mycontainer;
+        @media (max-width: 1770px) {
+            width: 94%;
+        }
         .mycard2 {
             max-width: 370px;
             width: 100%;
@@ -276,8 +291,15 @@ header {
         align-items: center;
         .card-container {
             @include card-container;
+            @media (max-width: 1770px) {
+                width: 1300px;
+                justify-content: space-evenly;
+            }
         }
         .mycard {
+            @media (max-width: 1770px) {
+                margin-bottom: 100px;
+            }
             .card-wrapper {
                 @include card-wrapper;
             }
@@ -469,17 +491,55 @@ input[type="submit"] {
         @include card-container;
         justify-content: space-around;
         margin-bottom: 179px;
+        @media (max-width: 1770px) {
+            width: 90%;
+        }
+        @media (max-width: 1744px) {
+            max-width: 1500px;
+            justify-content: space-between;
+        }
+        @media (max-width: 1600px) {
+            max-width: 1440px;
+        }
         .left-card {
             @include left-card;
+            @media (max-width: 1770px) {
+                max-width: 785px;
+            }
+            @media (max-width: 1744px) {
+                max-width: 700px;
+            }
+            img {
+                @media (max-width: 1744px) {
+                    width: 100%;
+                }
+            }
         }
         .right-cards {
             @include right-cards;
+            @media (max-width: 1744px) {
+                max-width: 700px;
+                justify-content: space-between;
+                gap: 70px;
+            }
+            img {
+                @media (max-width: 1744px) {
+                    width: 100%;
+                }
+            }
         }
     }
 }
 
 .quotes {
     @include quotes;
+    @media (max-width: 1770px) {
+        width: 90%;
+        gap: 45px;
+    }
+    @media (max-width: 1600px) {
+        gap: 35px;
+    }
     img {
         max-width: 53px;
         width: 100%;
@@ -502,6 +562,9 @@ input[type="submit"] {
             position: absolute;
             top: 225px;
             left: 75px;
+            @media (max-width: 1600px) {
+                top: 260px;
+            }
         }
         p {
             font-family: "Proxima Nova Alt Lt", sans-serif;
@@ -513,6 +576,9 @@ input[type="submit"] {
             position: absolute;
             top: 225px;
             left: 195px;
+            @media (max-width: 1600px) {
+                top: 260px;
+            }
         }
         p::first-line {
             font-family: "Proxima Nova Alt Lt", sans-serif;
@@ -670,6 +736,15 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    @media (max-width: 1770px) {
+        max-width: 1660px;
+    }
+    @media (max-width: 1650px) {
+        max-width: 1550px;
+    }
+    @media (max-width: 1600px) {
+        max-width: 1500px;
+    }
     img {
         max-width: 45px;
         width: 100%;
