@@ -15,6 +15,15 @@ header {
     @media (max-width: 1600px) {
         gap: 235px;
     }
+    @media (max-width: 1160px) {
+        max-width: 1160px;
+    }
+    @media (max-width: 1160px) {
+        width: 100%;
+    }
+    @media (max-width: 900px) {
+        width: 95%;
+    }
     img {
         max-width: 55px;
         height: 55px;
@@ -108,6 +117,9 @@ header {
         @media (max-width: 1770px) {
             width: 94%;
         }
+        @media (max-width: 128px) {
+            width: 100%;
+        }
 
         .travel-to-explore {
             h3 {
@@ -162,6 +174,9 @@ header {
     padding-bottom: 20px;
     display: flex;
     justify-content: space-around;
+    @media (max-width: 900px) {
+        max-width: 780px;
+    }
 
     .check-in-out {
         max-width: 95px;
@@ -193,6 +208,9 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        @media (max-width: 900px) {
+            max-width: 130px;
+        }
         h2 a {
             font-family: "Proxima Nova Alt Lt", sans-serif;
             font-weight: 600;
@@ -304,6 +322,7 @@ header {
     margin-top: 214px;
     .mycontainer {
         @include mycontainer;
+        margin: 0 auto;
         flex-direction: column;
         align-items: center;
         .card-container {
@@ -312,10 +331,24 @@ header {
                 width: 1300px;
                 justify-content: space-evenly;
             }
+            @media (max-width: 1218px) {
+                max-width: 1218px;
+                justify-content: center;
+            }
+            @media (max-width: 1160px) {
+                max-width: 1160px;
+            }
+            @media (max-width: 1100px) {
+                max-width: 580px;
+                flex-direction: column;
+            }
         }
         .mycard {
             @media (max-width: 1770px) {
                 margin-bottom: 100px;
+            }
+            @media (max-width: 1100px) {
+                margin-bottom: 30px;
             }
             .card-wrapper {
                 @include card-wrapper;
@@ -351,6 +384,14 @@ header {
             max-width: 1250px;
             width: 100%;
             margin-bottom: 78px;
+            @media (max-width: 1218px) {
+                max-width: 1000px;
+            }
+            @media (max-width: 1000px) {
+                max-width: 800px;
+                height: 80px;
+                margin-bottom: 35px;
+            }
             ul {
                 display: flex;
                 gap: 100px;
@@ -364,6 +405,7 @@ header {
                     font-weight: normal;
                     font-style: normal;
                     color: #163235;
+                    text-align: center;
                     &:hover {
                         cursor: pointer;
                         font-weight: 700;
@@ -572,6 +614,9 @@ input[type="submit"] {
         width: 90%;
         gap: 45px;
     }
+    @media (max-width: 1000px) {
+        flex-direction: column;
+    }
     @media (max-width: 1600px) {
         gap: 35px;
     }
@@ -596,6 +641,9 @@ input[type="submit"] {
         @media (max-width: 1276px) {
             height: 500px;
         }
+        @media (max-width: 1000px) {
+            height: 350px;
+        }
         .shalini {
             max-width: 70px;
             width: 100%;
@@ -611,6 +659,9 @@ input[type="submit"] {
             }
             @media (max-width: 1276px) {
                 top: 400px;
+            }
+            @media (max-width: 1000px) {
+                top: 220px;
             }
         }
         p {
@@ -631,6 +682,9 @@ input[type="submit"] {
             }
             @media (max-width: 1276px) {
                 top: 400px;
+            }
+            @media (max-width: 1000px) {
+                top: 220px;
             }
         }
         p::first-line {
@@ -665,6 +719,12 @@ input[type="submit"] {
     width: 100%;
     margin: 0 auto;
     margin-top: 100px;
+    @media (max-width: 1160px) {
+        margin-top: 200px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
     h3 {
         max-width: 150px;
         width: 100%;
@@ -674,6 +734,13 @@ input[type="submit"] {
         font-weight: 700;
         color: #202124;
         margin-bottom: 40px;
+        @media (max-width: 1160px) {
+            display: inline-block;
+            position: absolute;
+            top: -80px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
     }
     .mycontainer {
         @include mycardcontainer;
@@ -683,8 +750,15 @@ input[type="submit"] {
         align-items: flex-start;
         @media (max-width: 1360px) {
             max-width: 1160px;
-            justify-content: space-evenly;
+            align-items: center;
             flex-wrap: wrap;
+        }
+        @media (max-width: 1160px) {
+            max-width: 720px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
         }
         .s5-card {
             max-width: 360px;
@@ -733,6 +807,10 @@ input[type="submit"] {
     width: 100%;
     margin: 0 auto;
     margin-top: 58px;
+    @media (max-width: 1160px) {
+        margin-top: 150px;
+        position: relative;
+    }
     h3 {
         max-width: 200px;
         width: 100%;
@@ -742,6 +820,12 @@ input[type="submit"] {
         font-weight: 700;
         color: #202124;
         margin-bottom: 40px;
+        @media (max-width: 1160px) {
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
     }
     .mycontainer {
         @include mycardcontainer;
@@ -804,6 +888,14 @@ input[type="submit"] {
                 flex-direction: row;
                 flex-wrap: wrap;
                 gap: 0px;
+                @media (max-width: 1160px) {
+                    max-width: 800px;
+                    height: 470px;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                }
             }
             img {
                 @media (max-width: 1360px) {
@@ -847,6 +939,21 @@ footer {
         width: 92%;
         margin-top: 0px;
     }
+    @media (max-width: 1218px) {
+        max-width: 1218px;
+        gap: 750px;
+    }
+    @media (max-width: 1160px) {
+        margin-top: 150px;
+    }
+    @media (max-width: 1100px) {
+        max-width: 1100px;
+    }
+    @media (max-width: 1000px) {
+        width: 92%;
+        gap: 400px;
+    }
+
     img {
         max-width: 45px;
         width: 100%;
