@@ -16,13 +16,35 @@ header {
         gap: 235px;
     }
     @media (max-width: 1160px) {
-        max-width: 1160px;
-    }
-    @media (max-width: 1160px) {
-        width: 100%;
+        width: 90%;
+        gap: 0px;
+        justify-content: space-between;
     }
     @media (max-width: 900px) {
-        width: 95%;
+        width: 90%;
+        gap: 0px;
+        justify-content: space-between;
+    }
+    @media (max-width: 809px) {
+        width: 90%;
+        gap: 0px;
+        justify-content: space-between;
+    }
+    @media (max-width: 750px) {
+        width: 90%;
+        gap: 0px;
+        justify-content: space-between;
+    }
+    @media (max-width: 600px) {
+        width: 90%;
+        gap: 0px;
+        justify-content: space-between;
+    }
+    @media (max-width: 550px) {
+        max-width: 550px;
+        width: 80%;
+        gap: 0px;
+        justify-content: space-between;
     }
     img {
         max-width: 55px;
@@ -91,6 +113,9 @@ header {
 
 .header-2nd-img {
     @include header-2nd-img;
+    @media (max-width: 1550px) {
+        display: none;
+    }
     h5 {
         font-family: "Proxima Nova Alt Lt", sans-serif;
         font-size: 19px;
@@ -117,8 +142,11 @@ header {
         @media (max-width: 1770px) {
             width: 94%;
         }
-        @media (max-width: 128px) {
-            width: 100%;
+        @media (max-width: 1280px) {
+            width: 90%;
+        }
+        @media (max-width: 550px) {
+            max-width: 550px;
         }
 
         .travel-to-explore {
@@ -130,6 +158,11 @@ header {
                 font-weight: 800px;
                 text-align: left;
                 color: white;
+                @media (max-width: 750px) {
+                    max-width: 522px;
+                    font-size: 35px;
+                    text-align: center;
+                }
             }
             h5 {
                 max-width: 522px;
@@ -177,11 +210,31 @@ header {
     @media (max-width: 900px) {
         max-width: 780px;
     }
+    @media (max-width: 809px) {
+        max-width: 700px;
+        flex-wrap: wrap;
+    }
+    @media (max-width: 750px) {
+        max-width: 300px;
+        height: 350px;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     .check-in-out {
         max-width: 95px;
         width: 100%;
         height: 47px;
+        @media (max-width: 750px) {
+            max-width: 130px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 40px;
+        }
         h4 {
             font-family: "Proxima Nova Alt Lt", sans-serif;
             font-size: 20px;
@@ -197,6 +250,9 @@ header {
             color: #7e7e7e;
             opacity: 0.8;
             margin-bottom: 5px;
+            @media (max-width: 750px) {
+                text-align: center;
+            }
         }
     }
     .explore-button {
@@ -211,21 +267,33 @@ header {
         @media (max-width: 900px) {
             max-width: 130px;
         }
+        @media (max-width: 809px) {
+            max-width: 100px;
+        }
         h2 a {
             font-family: "Proxima Nova Alt Lt", sans-serif;
             font-weight: 600;
             font-size: 21px;
             color: white;
+            @media (max-width: 809px) {
+                font-size: 15px;
+            }
         }
     }
     .line {
         height: 55px;
+        @media (max-width: 750px) {
+            display: none;
+        }
     }
     .mycard1 {
         max-width: 230px;
         height: 47px;
         display: flex;
         flex-direction: column;
+        @media (max-width: 750px) {
+            margin-bottom: 20px;
+        }
         h4 {
             max-width: 210px;
             font-family: "Proxima Nova Alt Lt", sans-serif;
@@ -243,6 +311,11 @@ header {
             max-width: 175px;
             width: 100%;
             display: flex;
+            @media (max-width: 750px) {
+                max-width: 230px;
+                justify-content: center;
+                align-items: center;
+            }
 
             #search {
                 max-width: 153px;
@@ -265,6 +338,9 @@ header {
 .s-2 {
     margin: 0 auto;
     margin-top: 178px;
+    @media (max-width: 809px) {
+        margin-top: 100px;
+    }
     .mycontainer {
         @include mycontainer;
         @media (max-width: 1770px) {
@@ -275,6 +351,9 @@ header {
             flex-wrap: wrap;
             gap: 20px;
             justify-content: space-between;
+        }
+        @media (max-width: 808px) {
+            justify-content: center;
         }
         .mycard2 {
             max-width: 370px;
@@ -320,6 +399,9 @@ header {
 .s-3 {
     margin: 0 auto;
     margin-top: 214px;
+    @media (max-width: 1160px) {
+        margin-top: 100px;
+    }
     .mycontainer {
         @include mycontainer;
         margin: 0 auto;
@@ -342,6 +424,9 @@ header {
                 max-width: 580px;
                 flex-direction: column;
             }
+            @media (max-width: 700px) {
+                align-items: center;
+            }
         }
         .mycard {
             @media (max-width: 1770px) {
@@ -349,6 +434,14 @@ header {
             }
             @media (max-width: 1100px) {
                 margin-bottom: 30px;
+            }
+            @media (max-width: 700px) {
+                max-width: 500px;
+            }
+            img {
+                @media (max-width: 700px) {
+                    max-width: 500px;
+                }
             }
             .card-wrapper {
                 @include card-wrapper;
@@ -399,6 +492,10 @@ header {
                 height: 31px;
                 padding-right: 5px;
                 padding-left: 5px;
+                @media (max-width: 1000px) {
+                    flex-direction: column;
+                    gap: 5px;
+                }
                 li {
                     font-family: "Proxima Nova Alt Lt", sans-serif;
                     font-size: 26px;
@@ -579,6 +676,9 @@ input[type="submit"] {
             @media (max-width: 1550px) {
                 max-width: 600px;
             }
+            @media (max-width: 700px) {
+                max-width: 550px;
+            }
             img {
                 @media (max-width: 1744px) {
                     width: 100%;
@@ -599,6 +699,9 @@ input[type="submit"] {
                 gap: 0px;
                 justify-content: space-evenly;
             }
+            @media (max-width: 700px) {
+                max-width: 560px;
+            }
             img {
                 @media (max-width: 1744px) {
                     width: 100%;
@@ -614,11 +717,15 @@ input[type="submit"] {
         width: 90%;
         gap: 45px;
     }
+    @media (max-width: 1600px) {
+        gap: 35px;
+    }
     @media (max-width: 1000px) {
         flex-direction: column;
     }
-    @media (max-width: 1600px) {
-        gap: 35px;
+    @media (max-width: 550px) {
+        max-width: 500px;
+        width: 100%;
     }
     img {
         max-width: 53px;
@@ -644,6 +751,16 @@ input[type="submit"] {
         @media (max-width: 1000px) {
             height: 350px;
         }
+        @media (max-width: 809px) {
+            height: 400px;
+        }
+        @media (max-width: 724px) {
+            height: 550px;
+            margin-top: 31px;
+        }
+        @media (max-width: 550px) {
+            max-width: 500px;
+        }
         .shalini {
             max-width: 70px;
             width: 100%;
@@ -662,6 +779,12 @@ input[type="submit"] {
             }
             @media (max-width: 1000px) {
                 top: 220px;
+            }
+            @media (max-width: 809px) {
+                top: 290px;
+            }
+            @media (max-width: 724px) {
+                top: 430px;
             }
         }
         p {
@@ -686,6 +809,12 @@ input[type="submit"] {
             @media (max-width: 1000px) {
                 top: 220px;
             }
+            @media (max-width: 809px) {
+                top: 290px;
+            }
+            @media (max-width: 724px) {
+                top: 430px;
+            }
         }
         p::first-line {
             font-family: "Proxima Nova Alt Lt", sans-serif;
@@ -707,6 +836,9 @@ input[type="submit"] {
             margin-left: 25px;
             @media (max-width: 1490px) {
                 height: 300px;
+            }
+            @media (max-width: 550px) {
+                width: 100%;
             }
         }
     }
@@ -737,7 +869,7 @@ input[type="submit"] {
         @media (max-width: 1160px) {
             display: inline-block;
             position: absolute;
-            top: -80px;
+            top: -4%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
@@ -837,6 +969,9 @@ input[type="submit"] {
             max-width: 1260px;
             flex-wrap: wrap;
         }
+        @media (max-width: 809px) {
+            max-width: 800px;
+        }
         .s6-card {
             max-width: 760px;
             width: 100%;
@@ -849,6 +984,22 @@ input[type="submit"] {
                 max-width: 760px;
                 width: 100%;
                 height: 900px;
+            }
+            @media (max-width: 809px) {
+                max-width: 620px;
+                height: 780px;
+            }
+            @media (max-width: 700px) {
+                max-width: 550px;
+                height: 715px;
+            }
+            @media (max-width: 600px) {
+                max-width: 500px;
+                height: 680px;
+            }
+            @media (max-width: 550px) {
+                max-width: 430px;
+                height: 580px;
             }
             img {
                 @media (max-width: 1360px) {
@@ -870,6 +1021,17 @@ input[type="submit"] {
                 left: 308px;
                 @media (max-width: 1360px) {
                     left: 280px;
+                }
+                @media (max-width: 808px) {
+                    left: 202px;
+                }
+                @media (max-width: 700px) {
+                    top: 20%;
+                    left: 50%;
+                    transform: translate(-50%);
+                }
+                @media (max-width: 600px) {
+                    width: 230px;
                 }
             }
         }
@@ -895,6 +1057,11 @@ input[type="submit"] {
                     align-items: center;
                     justify-content: center;
                     gap: 10px;
+                }
+                @media (max-width: 809px) {
+                    max-width: 360px;
+                    height: 650px;
+                    flex-direction: column;
                 }
             }
             img {
@@ -952,6 +1119,18 @@ footer {
     @media (max-width: 1000px) {
         width: 92%;
         gap: 400px;
+    }
+    @media (max-width: 700px) {
+        width: 90%;
+        gap: 220px;
+    }
+    @media (max-width: 600px) {
+        max-width: 600px;
+        gap: 0px;
+    }
+    @media (max-width: 550px) {
+        max-width: 550px;
+        gap: 0px;
     }
 
     img {
