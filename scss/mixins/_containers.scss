@@ -1,7 +1,7 @@
 @mixin header-1st-img {
     max-width: 130px;
     width: 100%;
-    height: 27px;
+    height: 55px;
     display: flex;
     align-items: center;
 }
@@ -19,7 +19,7 @@
     padding-right: 19px;
     padding-bottom: 6px;
     padding-left: 19px;
-    h5 {
+    h4 {
         font-family: "Proxima Nova Alt Lt", sans-serif;
         color: white;
         font-size: 19px;
@@ -27,7 +27,7 @@
         height: 22px;
         text-align: center;
     }
-    h5 a {
+    h4 a {
         font-family: "Proxima Nova Alt Lt", sans-serif;
         font-size: 19px;
         color: white;

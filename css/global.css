@@ -150,35 +150,49 @@ a {
 }
 
 header {
-  max-width: 1780px;
-  width: 100%;
+  max-width: 1920px;
+  width: 90%;
   height: 70px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 470px;
+  justify-content: space-between;
 }
-@media (max-width: 1770px) {
+@media (max-width: 1680px) {
   header {
-    gap: 300px;
+    max-width: 1680px;
+    width: 90%;
+    justify-content: space-between;
   }
 }
 @media (max-width: 1600px) {
   header {
-    gap: 235px;
-  }
-}
-@media (max-width: 1160px) {
-  header {
+    max-width: 1600px;
     width: 90%;
     gap: 0px;
     justify-content: space-between;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1440px) {
   header {
+    max-width: 1440px;
     width: 90%;
+    gap: 0px;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1366px) {
+  header {
+    max-width: 1366px;
+    width: 90%;
+    gap: 0px;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1024px) {
+  header {
+    max-width: 1024px;
+    width: 85%;
     gap: 0px;
     justify-content: space-between;
   }
@@ -222,6 +236,11 @@ header h5 {
   font-size: 20px;
   color: #4468e2;
   width: 66px;
+}
+@media (max-width: 1550px) {
+  header h5 {
+    display: none;
+  }
 }
 header nav {
   max-width: 601px;
@@ -277,9 +296,14 @@ header .fa-bars {
 .header-1st-img {
   max-width: 130px;
   width: 100%;
-  height: 27px;
+  height: 55px;
   display: flex;
   align-items: center;
+}
+@media (max-width: 1550px) {
+  .header-1st-img {
+    max-width: 55px;
+  }
 }
 
 .header-2nd-img {
@@ -296,7 +320,7 @@ header .fa-bars {
   padding-bottom: 6px;
   padding-left: 19px;
 }
-.header-2nd-img h5 {
+.header-2nd-img h4 {
   font-family: "Proxima Nova Alt Lt", sans-serif;
   color: white;
   font-size: 19px;
@@ -304,18 +328,13 @@ header .fa-bars {
   height: 22px;
   text-align: center;
 }
-.header-2nd-img h5 a {
+.header-2nd-img h4 a {
   font-family: "Proxima Nova Alt Lt", sans-serif;
   font-size: 19px;
   color: white;
   font-weight: 600;
 }
-@media (max-width: 1550px) {
-  .header-2nd-img {
-    display: none;
-  }
-}
-.header-2nd-img h5 {
+.header-2nd-img h4 {
   font-family: "Proxima Nova Alt Lt", sans-serif;
   font-size: 19px;
   color: white;
