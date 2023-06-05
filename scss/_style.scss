@@ -68,7 +68,7 @@ header {
         font-size: 20px;
         color: #4468e2;
         width: 66px;
-        @media (max-width: 1550px) {
+        @media (max-width: 1440px) {
             display: none;
         }
     }
@@ -76,7 +76,7 @@ header {
         max-width: 601px;
         width: 100%;
         height: 26px;
-        @media (max-width: 1550px) {
+        @media (max-width: 1440px) {
             display: none;
         }
         ul {
@@ -108,7 +108,7 @@ header {
     .fa-bars {
         font-size: 36px;
         display: none;
-        @media (max-width: 1550px) {
+        @media (max-width: 1440px) {
             display: block;
             cursor: pointer;
         }
@@ -124,7 +124,7 @@ header {
 
 .header-1st-img {
     @include header-1st-img;
-    @media (max-width: 1550px) {
+    @media (max-width: 1440px) {
         max-width: 55px;
     }
 }
@@ -154,11 +154,27 @@ header {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        @media (max-width: 1770px) {
-            width: 94%;
+        @media (max-width: 1680px) {
+            width: 95%;
         }
-        @media (max-width: 1280px) {
-            width: 90%;
+        @media (max-width: 1600px) {
+            width: 95%;
+        }
+        @media (max-width: 1024px) {
+            max-width: 1024px;
+            width: 95%;
+        }
+        @media (max-width: 800px) {
+            max-width: 800px;
+            width: 95%;
+        }
+        @media (max-width: 768px) {
+            max-width: 768px;
+            width: 95%;
+        }
+        @media (max-width: 600px) {
+            max-width: 600px;
+            width: 95%;
         }
         @media (max-width: 550px) {
             max-width: 550px;
