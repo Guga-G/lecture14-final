@@ -25,6 +25,13 @@ header {
         gap: 0px;
         justify-content: space-between;
     }
+
+    @media (max-width: 1400px) {
+        max-width: 1400px;
+        width: 90%;
+        gap: 0px;
+        justify-content: space-between;
+    }
     @media (max-width: 1366px) {
         max-width: 1366px;
         width: 90%;
@@ -806,6 +813,9 @@ input[type="submit"] {
             @media (max-width: 1440px) {
                 top: 350px;
             }
+            @media (max-width: 1400px) {
+                top: 350px;
+            }
             @media (max-width: 1024px) {
                 top: 330px;
             }
@@ -832,6 +842,10 @@ input[type="submit"] {
             }
             @media (max-width: 1440px) {
                 top: 350px;
+            }
+            @media (max-width: 1400px) {
+                top: 350px;
+                width: 280px;
             }
             @media (max-width: 1024px) {
                 top: 330px;
@@ -1124,6 +1138,12 @@ footer {
         width: 95%;
         justify-content: space-around;
         gap: 850px;
+    }
+    @media (max-width: 1400px) {
+        max-width: 1400px;
+        width: 95%;
+        justify-content: space-around;
+        gap: 810px;
     }
     @media (max-width: 1366px) {
         max-width: 1366px;

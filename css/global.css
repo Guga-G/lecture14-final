@@ -181,6 +181,14 @@ header {
     justify-content: space-between;
   }
 }
+@media (max-width: 1400px) {
+  header {
+    max-width: 1400px;
+    width: 90%;
+    gap: 0px;
+    justify-content: space-between;
+  }
+}
 @media (max-width: 1366px) {
   header {
     max-width: 1366px;
@@ -1272,6 +1280,11 @@ input[type=submit] {
     top: 350px;
   }
 }
+@media (max-width: 1400px) {
+  .quotes .card-left-right .shalini {
+    top: 350px;
+  }
+}
 @media (max-width: 1024px) {
   .quotes .card-left-right .shalini {
     top: 330px;
@@ -1307,6 +1320,12 @@ input[type=submit] {
 @media (max-width: 1440px) {
   .quotes .card-left-right p {
     top: 350px;
+  }
+}
+@media (max-width: 1400px) {
+  .quotes .card-left-right p {
+    top: 350px;
+    width: 280px;
   }
 }
 @media (max-width: 1024px) {
@@ -1663,6 +1682,14 @@ footer {
     width: 95%;
     justify-content: space-around;
     gap: 850px;
+  }
+}
+@media (max-width: 1400px) {
+  footer {
+    max-width: 1400px;
+    width: 95%;
+    justify-content: space-around;
+    gap: 810px;
   }
 }
 @media (max-width: 1366px) {
