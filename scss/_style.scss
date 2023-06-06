@@ -842,6 +842,7 @@ input[type="submit"] {
             }
             @media (max-width: 1024px) {
                 max-width: 570px;
+                height: 670px;
             }
             @media (max-width: 768px) {
                 max-width: 570px;
@@ -1244,6 +1245,11 @@ input[type="submit"] {
         @media (max-width: 1360px) {
             max-width: 1260px;
             flex-wrap: wrap;
+        }
+        @media (max-width: 1024px) {
+            max-width: 1000px;
+            justify-content: center;
+            align-items: center;
         }
         @media (max-width: 768px) {
             max-width: 768px;

@@ -1302,6 +1302,7 @@ input[type=submit] {
 @media (max-width: 1024px) {
   .s-4 .card-container .left-card {
     max-width: 570px;
+    height: 670px;
   }
 }
 @media (max-width: 768px) {
@@ -1911,6 +1912,13 @@ input[type=submit] {
   .s-6 .mycontainer {
     max-width: 1260px;
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 1024px) {
+  .s-6 .mycontainer {
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 768px) {
