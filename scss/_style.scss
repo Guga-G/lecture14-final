@@ -220,6 +220,9 @@ header {
                 @media (max-width: 384px) {
                     height: 125px;
                 }
+                @media (max-width: 320px) {
+                    height: 130px;
+                }
             }
             @media (max-width: 384px) {
                 margin-bottom: 10px;
@@ -451,6 +454,9 @@ header {
             filter: drop-shadow(10px 40px 25px rgba(229, 233, 246, 0.4));
             padding-top: 29px;
             padding-left: 26px;
+            @media (max-width: 360px) {
+                max-width: 300px;
+            }
             .rectangle {
                 max-width: 105px;
                 width: 100%;
@@ -513,6 +519,9 @@ header {
             @media (max-width: 414px) {
                 max-width: 400px;
             }
+            @media (max-width: 360px) {
+                max-width: 300px;
+            }
         }
         .mycard {
             @media (max-width: 1680px) {
@@ -527,8 +536,9 @@ header {
             @media (max-width: 600px) {
                 max-width: 520px;
             }
-            @media (max-width: 414px) {
-                max-width: 400px;
+            @media (max-width: 360px) {
+                max-width: 300px;
+                height: 500px;
             }
             img {
                 @media (max-width: 768px) {
@@ -843,10 +853,22 @@ input[type="submit"] {
                 max-width: 380px;
                 height: 480px;
             }
+            @media (max-width: 360px) {
+                max-width: 310px;
+                height: 310px;
+            }
             h3 {
                 @media (max-width: 414px) {
                     position: absolute;
                     top: 35%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                @media (max-width: 360px) {
+                    font-size: 32px;
+                    line-height: 51px;
+                    position: absolute;
+                    top: 55%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                 }
@@ -860,6 +882,10 @@ input[type="submit"] {
                 }
                 @media (max-width: 414px) {
                     height: 480px;
+                }
+                @media (max-width: 360px) {
+                    max-width: 100%;
+                    height: 100%;
                 }
             }
         }
@@ -892,12 +918,30 @@ input[type="submit"] {
             @media (max-width: 414px) {
                 max-width: 380px;
             }
+            @media (max-width: 360px) {
+                max-width: 310px;
+                height: 310px;
+            }
             img {
                 @media (max-width: 1680px) {
                     max-width: 100%;
                 }
                 @media (max-width: 1600px) {
                     max-width: 100%;
+                }
+                @media (max-width: 360px) {
+                    max-width: 100%;
+                    height: 100%;
+                }
+            }
+            h4 {
+                @media (max-width: 360px) {
+                    font-size: 22px;
+                    line-height: 30px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
                 }
             }
         }
@@ -957,7 +1001,7 @@ input[type="submit"] {
 
         @media (max-width: 360px) {
             max-width: 350px;
-            height: 770px;
+            height: 700px;
         }
         @media (max-width: 320px) {
             max-width: 350px;
@@ -990,11 +1034,11 @@ input[type="submit"] {
                 left: 0px;
             }
             @media (max-width: 360px) {
-                top: 650px;
+                top: 580px;
                 left: 0px;
             }
-            @media (max-width: 360px) {
-                top: 690px;
+            @media (max-width: 320px) {
+                top: 700px;
                 left: 0px;
             }
         }
@@ -1029,11 +1073,12 @@ input[type="submit"] {
                 font-size: 22px;
             }
             @media (max-width: 360px) {
-                top: 640px;
+                top: 580px;
                 left: 120px;
+                font-size: 19px;
             }
             @media (max-width: 320px) {
-                top: 680px;
+                top: 690px;
                 left: 120px;
                 font-size: 19px;
             }
@@ -1095,8 +1140,8 @@ input[type="submit"] {
             display: inline-block;
             position: absolute;
             top: -4%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            left: 55%;
+            transform: translate(-55%, -50%);
         }
     }
     .mycontainer {
@@ -1126,6 +1171,12 @@ input[type="submit"] {
             &:hover {
                 cursor: pointer;
                 opacity: 0.7;
+            }
+            @media (max-width: 360px) {
+                max-width: 310px;
+            }
+            @media (max-width: 320px) {
+                max-width: 290px;
             }
             h4 {
                 font-family: "Montserrat", sans-serif;
@@ -1231,6 +1282,14 @@ input[type="submit"] {
                 max-width: 370px;
                 height: 715px;
             }
+            @media (max-width: 360px) {
+                max-width: 310px;
+                height: 510px;
+            }
+            @media (max-width: 320px) {
+                max-width: 290px;
+                height: 490px;
+            }
             img {
                 @media (max-width: 1024px) {
                     max-width: 100%;
@@ -1288,16 +1347,23 @@ input[type="submit"] {
                 justify-content: center;
                 gap: 20px;
             }
-            // @media (max-width: 1024px) {
-            //     max-width: 360px;
-            //     height: 550px;
-            //     flex-direction: column;
-            // }
+
+            @media (max-width: 360px) {
+                max-width: 310px;
+                height: 700px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+            }
+            @media (max-width: 320px) {
+                max-width: 290px;
+            }
         }
         img {
             @media (max-width: 1360px) {
-                max-width: 360px;
-                height: 210px;
+                max-width: 100%;
+                height: 180px;
             }
         }
     }

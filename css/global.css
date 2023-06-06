@@ -440,6 +440,11 @@ header .fa-bars {
     height: 125px;
   }
 }
+@media (max-width: 320px) {
+  .s-1 .background .travel-to-explore h5 {
+    height: 130px;
+  }
+}
 @media (max-width: 384px) {
   .s-1 .background .travel-to-explore {
     margin-bottom: 10px;
@@ -706,6 +711,11 @@ header .fa-bars {
   padding-top: 29px;
   padding-left: 26px;
 }
+@media (max-width: 360px) {
+  .s-2 .mycontainer .mycard2 {
+    max-width: 300px;
+  }
+}
 .s-2 .mycontainer .mycard2 .rectangle {
   max-width: 105px;
   width: 100%;
@@ -787,6 +797,11 @@ header .fa-bars {
     max-width: 400px;
   }
 }
+@media (max-width: 360px) {
+  .s-3 .mycontainer .card-container {
+    max-width: 300px;
+  }
+}
 .s-3 .mycontainer .mycard {
   width: 570px;
   display: flex;
@@ -813,9 +828,10 @@ header .fa-bars {
     max-width: 520px;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 360px) {
   .s-3 .mycontainer .mycard {
-    max-width: 400px;
+    max-width: 300px;
+    height: 500px;
   }
 }
 @media (max-width: 768px) {
@@ -850,6 +866,11 @@ header .fa-bars {
   margin-bottom: 15px;
   margin-left: 8px;
 }
+@media (max-width: 360px) {
+  .s-3 .mycontainer .mycard h3 {
+    font-size: 32px;
+  }
+}
 .s-3 .mycontainer .mycard h4 {
   font-family: "Proxima Nova Alt Lt", sans-serif;
   font-size: 26px;
@@ -859,6 +880,11 @@ header .fa-bars {
   width: 100%;
   margin-bottom: 25px;
   margin-left: 8px;
+}
+@media (max-width: 360px) {
+  .s-3 .mycontainer .mycard h4 {
+    font-size: 26px;
+  }
 }
 .s-3 .mycontainer .mycard .right-part {
   max-width: 240px;
@@ -1294,10 +1320,26 @@ input[type=submit] {
     height: 480px;
   }
 }
+@media (max-width: 360px) {
+  .s-4 .card-container .left-card {
+    max-width: 310px;
+    height: 310px;
+  }
+}
 @media (max-width: 414px) {
   .s-4 .card-container .left-card h3 {
     position: absolute;
     top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 360px) {
+  .s-4 .card-container .left-card h3 {
+    font-size: 32px;
+    line-height: 51px;
+    position: absolute;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -1315,6 +1357,12 @@ input[type=submit] {
 @media (max-width: 414px) {
   .s-4 .card-container .left-card img {
     height: 480px;
+  }
+}
+@media (max-width: 360px) {
+  .s-4 .card-container .left-card img {
+    max-width: 100%;
+    height: 100%;
   }
 }
 .s-4 .card-container .right-cards {
@@ -1410,6 +1458,12 @@ input[type=submit] {
     max-width: 380px;
   }
 }
+@media (max-width: 360px) {
+  .s-4 .card-container .right-cards {
+    max-width: 310px;
+    height: 310px;
+  }
+}
 @media (max-width: 1680px) {
   .s-4 .card-container .right-cards img {
     max-width: 100%;
@@ -1418,6 +1472,22 @@ input[type=submit] {
 @media (max-width: 1600px) {
   .s-4 .card-container .right-cards img {
     max-width: 100%;
+  }
+}
+@media (max-width: 360px) {
+  .s-4 .card-container .right-cards img {
+    max-width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 360px) {
+  .s-4 .card-container .right-cards h4 {
+    font-size: 22px;
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -1496,7 +1566,7 @@ input[type=submit] {
 @media (max-width: 360px) {
   .quotes .card-left-right {
     max-width: 350px;
-    height: 770px;
+    height: 700px;
   }
 }
 @media (max-width: 320px) {
@@ -1546,13 +1616,13 @@ input[type=submit] {
 }
 @media (max-width: 360px) {
   .quotes .card-left-right .shalini {
-    top: 650px;
+    top: 580px;
     left: 0px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 320px) {
   .quotes .card-left-right .shalini {
-    top: 690px;
+    top: 700px;
     left: 0px;
   }
 }
@@ -1601,13 +1671,14 @@ input[type=submit] {
 }
 @media (max-width: 360px) {
   .quotes .card-left-right p {
-    top: 640px;
+    top: 580px;
     left: 120px;
+    font-size: 19px;
   }
 }
 @media (max-width: 320px) {
   .quotes .card-left-right p {
-    top: 680px;
+    top: 690px;
     left: 120px;
     font-size: 19px;
   }
@@ -1676,8 +1747,8 @@ input[type=submit] {
     display: inline-block;
     position: absolute;
     top: -4%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 55%;
+    transform: translate(-55%, -50%);
   }
 }
 .s-5 .mycontainer {
@@ -1737,6 +1808,16 @@ input[type=submit] {
 .s-5 .mycontainer .s5-card:hover {
   cursor: pointer;
   opacity: 0.7;
+}
+@media (max-width: 360px) {
+  .s-5 .mycontainer .s5-card {
+    max-width: 310px;
+  }
+}
+@media (max-width: 320px) {
+  .s-5 .mycontainer .s5-card {
+    max-width: 290px;
+  }
 }
 .s-5 .mycontainer .s5-card h4 {
   font-family: "Montserrat", sans-serif;
@@ -1882,6 +1963,18 @@ input[type=submit] {
     height: 715px;
   }
 }
+@media (max-width: 360px) {
+  .s-6 .mycontainer .s6-card {
+    max-width: 310px;
+    height: 510px;
+  }
+}
+@media (max-width: 320px) {
+  .s-6 .mycontainer .s6-card {
+    max-width: 290px;
+    height: 490px;
+  }
+}
 @media (max-width: 1024px) {
   .s-6 .mycontainer .s6-card img {
     max-width: 100%;
@@ -1948,10 +2041,25 @@ input[type=submit] {
     gap: 20px;
   }
 }
+@media (max-width: 360px) {
+  .s-6 .mycontainer .s6-card2 {
+    max-width: 310px;
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .s-6 .mycontainer .s6-card2 {
+    max-width: 290px;
+  }
+}
 @media (max-width: 1360px) {
   .s-6 .mycontainer img {
-    max-width: 360px;
-    height: 210px;
+    max-width: 100%;
+    height: 180px;
   }
 }
 
