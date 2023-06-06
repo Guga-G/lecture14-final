@@ -828,6 +828,11 @@ header .fa-bars {
     max-width: 520px;
   }
 }
+@media (max-width: 414px) {
+  .s-3 .mycontainer .mycard {
+    max-width: 380px;
+  }
+}
 @media (max-width: 360px) {
   .s-3 .mycontainer .mycard {
     max-width: 300px;
