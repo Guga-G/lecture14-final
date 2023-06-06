@@ -58,7 +58,19 @@ header {
     }
     @media (max-width: 414px) {
         max-width: 400px;
-        width: 95%;
+        width: 90%;
+        gap: 0px;
+        justify-content: space-between;
+    }
+    @media (max-width: 360px) {
+        max-width: 360px;
+        width: 90%;
+        gap: 0px;
+        justify-content: space-between;
+    }
+    @media (max-width: 320px) {
+        max-width: 320px;
+        width: 90%;
         gap: 0px;
         justify-content: space-between;
     }
@@ -205,6 +217,12 @@ header {
                 line-height: 33px;
                 color: white;
                 margin-bottom: 39px;
+                @media (max-width: 384px) {
+                    height: 125px;
+                }
+            }
+            @media (max-width: 384px) {
+                margin-bottom: 10px;
             }
         }
     }
@@ -257,6 +275,10 @@ header {
         flex-direction: column;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    @media (max-width: 320px) {
+        max-width: 250px;
+        height: 325px;
     }
 
     .check-in-out {
@@ -620,19 +642,56 @@ header {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 }
 .text {
     max-width: 720px;
     width: 100%;
+    @media (max-width: 1024px) {
+        max-width: 500px;
+    }
+    @media (max-width: 414px) {
+        max-width: 370px;
+    }
+    @media (max-width: 360px) {
+        max-width: 330px;
+    }
+    @media (max-width: 320px) {
+        max-width: 290px;
+    }
 }
 
 .submitform {
     max-width: 352px;
     width: 100%;
+    @media (max-width: 1024px) {
+        max-width: 500px;
+    }
+    @media (max-width: 414px) {
+        max-width: 370px;
+    }
+    @media (max-width: 360px) {
+        max-width: 350px;
+    }
+    @media (max-width: 360px) {
+        max-width: 330px;
+    }
+    @media (max-width: 320px) {
+        max-width: 290px;
+    }
 }
 
 form {
     max-width: 720px;
+    @media (max-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 textarea {
@@ -669,6 +728,12 @@ input[type="text"] {
     line-height: 13px;
     margin-bottom: 16px;
     padding-left: 20px;
+    @media (max-width: 1024px) {
+        max-width: 100%;
+    }
+    @media (max-width: 414px) {
+        max-width: 100%;
+    }
 }
 
 input[type="email"] {
@@ -683,6 +748,12 @@ input[type="email"] {
     border-radius: 14px;
     background: #f8f8f8;
     padding-left: 20px;
+    @media (max-width: 1024px) {
+        max-width: 100%;
+    }
+    @media (max-width: 414px) {
+        max-width: 100%;
+    }
 }
 
 input[type="submit"] {
@@ -698,6 +769,12 @@ input[type="submit"] {
     color: #ffffff;
     margin-top: 16px;
     cursor: pointer;
+    @media (max-width: 1024px) {
+        max-width: 100%;
+    }
+    @media (max-width: 414px) {
+        max-width: 100%;
+    }
 }
 
 ::placeholder {
@@ -877,6 +954,15 @@ input[type="submit"] {
             max-width: 414px;
             height: 650px;
         }
+
+        @media (max-width: 360px) {
+            max-width: 350px;
+            height: 770px;
+        }
+        @media (max-width: 320px) {
+            max-width: 350px;
+            height: 820px;
+        }
         .shalini {
             max-width: 70px;
             width: 100%;
@@ -901,6 +987,14 @@ input[type="submit"] {
             }
             @media (max-width: 414px) {
                 top: 540px;
+                left: 0px;
+            }
+            @media (max-width: 360px) {
+                top: 650px;
+                left: 0px;
+            }
+            @media (max-width: 360px) {
+                top: 690px;
                 left: 0px;
             }
         }
@@ -934,6 +1028,15 @@ input[type="submit"] {
                 left: 120px;
                 font-size: 22px;
             }
+            @media (max-width: 360px) {
+                top: 640px;
+                left: 120px;
+            }
+            @media (max-width: 320px) {
+                top: 680px;
+                left: 120px;
+                font-size: 19px;
+            }
         }
         p::first-line {
             font-family: "Proxima Nova Alt Lt", sans-serif;
@@ -958,6 +1061,9 @@ input[type="submit"] {
             }
             @media (max-width: 414px) {
                 font-size: 24px;
+            }
+            @media (max-width: 360px) {
+                font-size: 22px;
             }
         }
     }
@@ -1239,6 +1345,7 @@ footer {
         max-width: 1024px;
         width: 95%;
         gap: 550px;
+        margin-bottom: 0px;
     }
     @media (max-width: 800px) {
         max-width: 800px;
@@ -1259,6 +1366,16 @@ footer {
         max-width: 411px;
         width: 95%;
         gap: 100px;
+    }
+    @media (max-width: 360px) {
+        max-width: 360px;
+        width: 95%;
+        gap: 0px;
+    }
+    @media (max-width: 320px) {
+        max-width: 320px;
+        width: 95%;
+        gap: 0px;
     }
 
     img {
@@ -1362,6 +1479,31 @@ footer {
     max-width: 850px;
     width: 100%;
     height: 465px;
+    @media (max-width: 1024px) {
+        max-width: 750px;
+    }
+    @media (max-width: 768px) {
+        max-width: 700px;
+    }
+    @media (max-width: 600px) {
+        max-width: 550px;
+    }
+    @media (max-width: 414px) {
+        max-width: 380px;
+        height: 450px;
+    }
+    @media (max-width: 384px) {
+        max-width: 350px;
+        height: 450px;
+    }
+    @media (max-width: 360px) {
+        max-width: 330px;
+        height: 430px;
+    }
+    @media (max-width: 320px) {
+        max-width: 290px;
+        height: 390px;
+    }
 }
 
 .contacts-container {
@@ -1370,6 +1512,48 @@ footer {
     width: 100%;
     justify-content: space-evenly;
     height: 600px;
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        max-width: 750px;
+        align-items: center;
+        gap: 20px;
+    }
+    @media (max-width: 768px) {
+        flex-direction: column;
+        max-width: 700px;
+        align-items: center;
+        gap: 20px;
+    }
+    @media (max-width: 600px) {
+        flex-direction: column;
+        max-width: 550px;
+        align-items: center;
+        gap: 20px;
+    }
+    @media (max-width: 414px) {
+        flex-direction: column;
+        max-width: 380px;
+        align-items: center;
+        gap: 20px;
+    }
+    @media (max-width: 384px) {
+        flex-direction: column;
+        max-width: 350px;
+        align-items: center;
+        gap: 20px;
+    }
+    @media (max-width: 360px) {
+        flex-direction: column;
+        max-width: 330px;
+        align-items: center;
+        gap: 20px;
+    }
+    @media (max-width: 320px) {
+        flex-direction: column;
+        max-width: 290px;
+        align-items: center;
+        gap: 20px;
+    }
 }
 
 // Places
