@@ -62,6 +62,12 @@ header {
         gap: 0px;
         justify-content: space-between;
     }
+    @media (max-width: 384px) {
+        max-width: 384px;
+        width: 90%;
+        gap: 0px;
+        justify-content: space-between;
+    }
     @media (max-width: 360px) {
         max-width: 360px;
         width: 90%;
@@ -519,7 +525,13 @@ header {
             @media (max-width: 414px) {
                 max-width: 400px;
             }
+            @media (max-width: 384px) {
+                max-width: 350px;
+            }
             @media (max-width: 360px) {
+                max-width: 320px;
+            }
+            @media (max-width: 320px) {
                 max-width: 300px;
             }
         }
@@ -539,9 +551,16 @@ header {
             @media (max-width: 414px) {
                 max-width: 380px;
             }
-            @media (max-width: 360px) {
-                max-width: 300px;
+            @media (max-width: 384px) {
+                max-width: 350px;
                 height: 500px;
+            }
+            @media (max-width: 360px) {
+                max-width: 320px;
+                height: 500px;
+            }
+            @media (max-width: 320px) {
+                max-width: 300px;
             }
             img {
                 @media (max-width: 768px) {
@@ -829,6 +848,12 @@ input[type="submit"] {
             max-width: 1100px;
             justify-content: space-around;
         }
+        @media (max-width: 360px) {
+            height: 650px;
+        }
+        @media (max-width: 360px) {
+            height: 630px;
+        }
         .left-card {
             @include left-card;
             @media (max-width: 1680px) {
@@ -855,21 +880,45 @@ input[type="submit"] {
             }
             @media (max-width: 414px) {
                 max-width: 380px;
-                height: 480px;
+                height: 400px;
+            }
+            @media (max-width: 384px) {
+                max-width: 350px;
+                height: 400px;
             }
             @media (max-width: 360px) {
                 max-width: 310px;
                 height: 310px;
             }
+            @media (max-width: 320px) {
+                max-width: 280px;
+                height: 300px;
+            }
             h3 {
                 @media (max-width: 414px) {
                     position: absolute;
-                    top: 35%;
+                    top: 40%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                @media (max-width: 384px) {
+                    font-size: 32px;
+                    line-height: 51px;
+                    position: absolute;
+                    top: 55%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                 }
                 @media (max-width: 360px) {
                     font-size: 32px;
+                    line-height: 51px;
+                    position: absolute;
+                    top: 55%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                @media (max-width: 360px) {
+                    font-size: 28px;
                     line-height: 51px;
                     position: absolute;
                     top: 55%;
@@ -885,9 +934,18 @@ input[type="submit"] {
                     max-width: 100%;
                 }
                 @media (max-width: 414px) {
-                    height: 480px;
+                    max-width: 100%;
+                    height: 400px;
+                }
+                @media (max-width: 384px) {
+                    max-width: 100%;
+                    height: 400px;
                 }
                 @media (max-width: 360px) {
+                    max-width: 100%;
+                    height: 100%;
+                }
+                @media (max-width: 320px) {
                     max-width: 100%;
                     height: 100%;
                 }
@@ -922,9 +980,16 @@ input[type="submit"] {
             @media (max-width: 414px) {
                 max-width: 380px;
             }
+            @media (max-width: 384px) {
+                max-width: 350px;
+            }
             @media (max-width: 360px) {
                 max-width: 310px;
                 height: 310px;
+            }
+            @media (max-width: 320px) {
+                max-width: 280px;
+                height: 280px;
             }
             img {
                 @media (max-width: 1680px) {
@@ -933,12 +998,32 @@ input[type="submit"] {
                 @media (max-width: 1600px) {
                     max-width: 100%;
                 }
+                @media (max-width: 414px) {
+                    max-width: 100%;
+                    height: 100%;
+                }
                 @media (max-width: 360px) {
                     max-width: 100%;
                     height: 100%;
                 }
             }
             h4 {
+                @media (max-width: 384px) {
+                    font-size: 24px;
+                    line-height: 30px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                @media (max-width: 360px) {
+                    font-size: 24px;
+                    line-height: 30px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
                 @media (max-width: 360px) {
                     font-size: 22px;
                     line-height: 30px;
@@ -974,127 +1059,15 @@ input[type="submit"] {
     }
     .card-left-right {
         display: flex;
+        flex-direction: column;
         max-width: 918px;
         width: 100%;
-        height: 360px;
+        height: 400px;
         padding-top: 10px;
         border-radius: 18px;
         filter: drop-shadow(10px 40px 25px rgba(229, 233, 246, 0.4));
         background: #ffffff;
         margin-top: 71px;
-
-        @media (max-width: 1680px) {
-            height: 420px;
-        }
-        @media (max-width: 1440px) {
-            height: 450px;
-        }
-        @media (max-width: 1024px) {
-            max-width: 700px;
-            height: 450px;
-            margin-top: 31px;
-        }
-        @media (max-width: 600px) {
-            max-width: 600px;
-            height: 500px;
-        }
-        @media (max-width: 414px) {
-            max-width: 414px;
-            height: 650px;
-        }
-
-        @media (max-width: 360px) {
-            max-width: 350px;
-            height: 700px;
-        }
-        @media (max-width: 320px) {
-            max-width: 350px;
-            height: 820px;
-        }
-        .shalini {
-            max-width: 70px;
-            width: 100%;
-            height: 70px;
-            position: absolute;
-            top: 225px;
-            left: 75px;
-            @media (max-width: 1680px) {
-                top: 300px;
-            }
-            @media (max-width: 1440px) {
-                top: 320px;
-            }
-            @media (max-width: 1400px) {
-                top: 320px;
-            }
-            @media (max-width: 1024px) {
-                top: 300px;
-            }
-            @media (max-width: 600px) {
-                top: 370px;
-            }
-            @media (max-width: 414px) {
-                top: 540px;
-                left: 0px;
-            }
-            @media (max-width: 360px) {
-                top: 580px;
-                left: 0px;
-            }
-            @media (max-width: 320px) {
-                top: 700px;
-                left: 0px;
-            }
-        }
-        p {
-            font-family: "Proxima Nova Alt Lt", sans-serif;
-            font-size: 28px;
-            font-weight: 400;
-            line-height: 38px;
-            text-align: left;
-            color: #848484;
-            position: absolute;
-            top: 225px;
-            left: 195px;
-            @media (max-width: 1680px) {
-                top: 290px;
-            }
-            @media (max-width: 1440px) {
-                top: 310px;
-            }
-            @media (max-width: 1400px) {
-                top: 310px;
-            }
-            @media (max-width: 1024px) {
-                top: 290px;
-            }
-            @media (max-width: 600px) {
-                top: 360px;
-            }
-            @media (max-width: 414px) {
-                top: 535px;
-                left: 120px;
-                font-size: 22px;
-            }
-            @media (max-width: 360px) {
-                top: 580px;
-                left: 120px;
-                font-size: 19px;
-            }
-            @media (max-width: 320px) {
-                top: 690px;
-                left: 120px;
-                font-size: 19px;
-            }
-        }
-        p::first-line {
-            font-family: "Proxima Nova Alt Lt", sans-serif;
-            font-size: 22px;
-            font-weight: 400;
-            line-height: 38px;
-            text-align: left;
-            color: #000000;
-        }
         h5 {
             max-width: 808px;
             width: 100%;
@@ -1105,15 +1078,156 @@ input[type="submit"] {
             line-height: 41px;
             color: #000000;
             margin-left: 25px;
+            padding-right: 30px;
             @media (max-width: 1440px) {
                 height: 300px;
             }
             @media (max-width: 414px) {
                 font-size: 24px;
+                max-width: 100%;
+            }
+            @media (max-width: 384px) {
+                font-size: 22px;
             }
             @media (max-width: 360px) {
                 font-size: 22px;
             }
+            @media (max-width: 320px) {
+                font-size: 20px;
+                margin-right: 35px;
+            }
+        }
+
+        @media (max-width: 1680px) {
+            height: 450px;
+        }
+        @media (max-width: 1440px) {
+            height: 450px;
+        }
+        @media (max-width: 1400px) {
+            height: 470px;
+        }
+        @media (max-width: 1024px) {
+            max-width: 700px;
+            height: 450px;
+            margin-top: 31px;
+        }
+        @media (max-width: 600px) {
+            max-width: 600px;
+            height: 510px;
+        }
+        @media (max-width: 414px) {
+            max-width: 414px;
+            height: 600px;
+        }
+        @media (max-width: 384px) {
+            max-width: 370px;
+            height: 600px;
+        }
+        @media (max-width: 360px) {
+            max-width: 350px;
+            height: 630px;
+        }
+        @media (max-width: 320px) {
+            max-width: 350px;
+            height: 650px;
+        }
+        .shalini {
+            max-width: 250px;
+            width: 100%;
+            display: flex;
+            gap: 15px;
+            img {
+                max-width: 70px;
+                width: 100%;
+                height: 70px;
+                margin-left: 0px;
+            }
+            p {
+                font-family: "Proxima Nova Alt Lt", sans-serif;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 38px;
+                text-align: left;
+                color: #848484;
+            }
+        }
+        // }
+        // @media (max-width: 1680px) {
+        //     top: 300px;
+        // }
+        // @media (max-width: 1440px) {
+        //     top: 320px;
+        // }
+        // @media (max-width: 1400px) {
+        //     top: 320px;
+        // }
+        // @media (max-width: 1024px) {
+        //     top: 300px;
+        // }
+        // @media (max-width: 600px) {
+        //     top: 370px;
+        // }
+        // @media (max-width: 414px) {
+        //     top: 540px;
+        //     left: 0px;
+        // }
+        // @media (max-width: 360px) {
+        //     top: 580px;
+        //     left: 0px;
+        // }
+        // @media (max-width: 320px) {
+        //     top: 700px;
+        //     left: 0px;
+        // }
+        // p {
+        //     font-family: "Proxima Nova Alt Lt", sans-serif;
+        //     font-size: 28px;
+        //     font-weight: 400;
+        //     line-height: 38px;
+        //     text-align: left;
+        //     color: #848484;
+        //     // position: absolute;
+        //     // top: 225px;
+        //     // left: 195px;
+        //     @media (max-width: 1680px) {
+        //         top: 290px;
+        //     }
+        //     @media (max-width: 1440px) {
+        //         top: 310px;
+        //     }
+        //     @media (max-width: 1400px) {
+        //         top: 310px;
+        //     }
+        //     @media (max-width: 1024px) {
+        //         top: 290px;
+        //     }
+        //     @media (max-width: 600px) {
+        //         top: 360px;
+        //     }
+        //     @media (max-width: 414px) {
+        //         top: 535px;
+        //         left: 120px;
+        //         font-size: 22px;
+        //     }
+        //     @media (max-width: 360px) {
+        //         top: 580px;
+        //         left: 120px;
+        //         font-size: 19px;
+        //     }
+        //     @media (max-width: 320px) {
+        //         top: 690px;
+        //         left: 120px;
+        //         font-size: 19px;
+        //     }
+        // }
+        p::first-line {
+            font-family: "Proxima Nova Alt Lt", sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 38px;
+            text-align: left;
+            color: #000000;
         }
     }
 }
@@ -1176,11 +1290,21 @@ input[type="submit"] {
                 cursor: pointer;
                 opacity: 0.7;
             }
+
+            @media (max-width: 384px) {
+                max-width: 340px;
+            }
             @media (max-width: 360px) {
                 max-width: 310px;
             }
             @media (max-width: 320px) {
                 max-width: 290px;
+            }
+            img {
+                @media (max-width: 384px) {
+                    max-width: 100%;
+                    height: 100%;
+                }
             }
             h4 {
                 font-family: "Montserrat", sans-serif;
@@ -1289,7 +1413,11 @@ input[type="submit"] {
             }
             @media (max-width: 414px) {
                 max-width: 370px;
-                height: 715px;
+                height: 615px;
+            }
+            @media (max-width: 384px) {
+                max-width: 350px;
+                height: 515px;
             }
             @media (max-width: 360px) {
                 max-width: 310px;
@@ -1441,6 +1569,11 @@ footer {
         max-width: 411px;
         width: 95%;
         gap: 100px;
+    }
+    @media (max-width: 384px) {
+        max-width: 384px;
+        width: 95%;
+        gap: 0px;
     }
     @media (max-width: 360px) {
         max-width: 360px;

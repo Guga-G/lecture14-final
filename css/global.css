@@ -229,6 +229,14 @@ header {
     justify-content: space-between;
   }
 }
+@media (max-width: 384px) {
+  header {
+    max-width: 384px;
+    width: 90%;
+    gap: 0px;
+    justify-content: space-between;
+  }
+}
 @media (max-width: 360px) {
   header {
     max-width: 360px;
@@ -797,7 +805,17 @@ header .fa-bars {
     max-width: 400px;
   }
 }
+@media (max-width: 384px) {
+  .s-3 .mycontainer .card-container {
+    max-width: 350px;
+  }
+}
 @media (max-width: 360px) {
+  .s-3 .mycontainer .card-container {
+    max-width: 320px;
+  }
+}
+@media (max-width: 320px) {
   .s-3 .mycontainer .card-container {
     max-width: 300px;
   }
@@ -833,10 +851,21 @@ header .fa-bars {
     max-width: 380px;
   }
 }
+@media (max-width: 384px) {
+  .s-3 .mycontainer .mycard {
+    max-width: 350px;
+    height: 500px;
+  }
+}
 @media (max-width: 360px) {
   .s-3 .mycontainer .mycard {
-    max-width: 300px;
+    max-width: 320px;
     height: 500px;
+  }
+}
+@media (max-width: 320px) {
+  .s-3 .mycontainer .mycard {
+    max-width: 300px;
   }
 }
 @media (max-width: 768px) {
@@ -1254,6 +1283,16 @@ input[type=submit] {
     justify-content: space-around;
   }
 }
+@media (max-width: 360px) {
+  .s-4 .card-container {
+    height: 650px;
+  }
+}
+@media (max-width: 360px) {
+  .s-4 .card-container {
+    height: 630px;
+  }
+}
 .s-4 .card-container .left-card {
   display: flex;
   max-width: 965px;
@@ -1323,7 +1362,13 @@ input[type=submit] {
 @media (max-width: 414px) {
   .s-4 .card-container .left-card {
     max-width: 380px;
-    height: 480px;
+    height: 400px;
+  }
+}
+@media (max-width: 384px) {
+  .s-4 .card-container .left-card {
+    max-width: 350px;
+    height: 400px;
   }
 }
 @media (max-width: 360px) {
@@ -1332,10 +1377,26 @@ input[type=submit] {
     height: 310px;
   }
 }
+@media (max-width: 320px) {
+  .s-4 .card-container .left-card {
+    max-width: 280px;
+    height: 300px;
+  }
+}
 @media (max-width: 414px) {
   .s-4 .card-container .left-card h3 {
     position: absolute;
-    top: 35%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 384px) {
+  .s-4 .card-container .left-card h3 {
+    font-size: 32px;
+    line-height: 51px;
+    position: absolute;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -1343,6 +1404,16 @@ input[type=submit] {
 @media (max-width: 360px) {
   .s-4 .card-container .left-card h3 {
     font-size: 32px;
+    line-height: 51px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 360px) {
+  .s-4 .card-container .left-card h3 {
+    font-size: 28px;
     line-height: 51px;
     position: absolute;
     top: 55%;
@@ -1362,10 +1433,23 @@ input[type=submit] {
 }
 @media (max-width: 414px) {
   .s-4 .card-container .left-card img {
-    height: 480px;
+    max-width: 100%;
+    height: 400px;
+  }
+}
+@media (max-width: 384px) {
+  .s-4 .card-container .left-card img {
+    max-width: 100%;
+    height: 400px;
   }
 }
 @media (max-width: 360px) {
+  .s-4 .card-container .left-card img {
+    max-width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 320px) {
   .s-4 .card-container .left-card img {
     max-width: 100%;
     height: 100%;
@@ -1464,10 +1548,21 @@ input[type=submit] {
     max-width: 380px;
   }
 }
+@media (max-width: 384px) {
+  .s-4 .card-container .right-cards {
+    max-width: 350px;
+  }
+}
 @media (max-width: 360px) {
   .s-4 .card-container .right-cards {
     max-width: 310px;
     height: 310px;
+  }
+}
+@media (max-width: 320px) {
+  .s-4 .card-container .right-cards {
+    max-width: 280px;
+    height: 280px;
   }
 }
 @media (max-width: 1680px) {
@@ -1480,10 +1575,36 @@ input[type=submit] {
     max-width: 100%;
   }
 }
+@media (max-width: 414px) {
+  .s-4 .card-container .right-cards img {
+    max-width: 100%;
+    height: 100%;
+  }
+}
 @media (max-width: 360px) {
   .s-4 .card-container .right-cards img {
     max-width: 100%;
     height: 100%;
+  }
+}
+@media (max-width: 384px) {
+  .s-4 .card-container .right-cards h4 {
+    font-size: 24px;
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 360px) {
+  .s-4 .card-container .right-cards h4 {
+    font-size: 24px;
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 @media (max-width: 360px) {
@@ -1531,23 +1652,68 @@ input[type=submit] {
 }
 .quotes .card-left-right {
   display: flex;
+  flex-direction: column;
   max-width: 918px;
   width: 100%;
-  height: 360px;
+  height: 400px;
   padding-top: 10px;
   border-radius: 18px;
   filter: drop-shadow(10px 40px 25px rgba(229, 233, 246, 0.4));
   background: #ffffff;
   margin-top: 71px;
 }
+.quotes .card-left-right h5 {
+  max-width: 808px;
+  width: 100%;
+  height: 196px;
+  font-family: "Proxima Nova Alt Lt", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 41px;
+  color: #000000;
+  margin-left: 25px;
+  padding-right: 30px;
+}
+@media (max-width: 1440px) {
+  .quotes .card-left-right h5 {
+    height: 300px;
+  }
+}
+@media (max-width: 414px) {
+  .quotes .card-left-right h5 {
+    font-size: 24px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 384px) {
+  .quotes .card-left-right h5 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 360px) {
+  .quotes .card-left-right h5 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 320px) {
+  .quotes .card-left-right h5 {
+    font-size: 20px;
+    margin-right: 35px;
+  }
+}
 @media (max-width: 1680px) {
   .quotes .card-left-right {
-    height: 420px;
+    height: 450px;
   }
 }
 @media (max-width: 1440px) {
   .quotes .card-left-right {
     height: 450px;
+  }
+}
+@media (max-width: 1400px) {
+  .quotes .card-left-right {
+    height: 470px;
   }
 }
 @media (max-width: 1024px) {
@@ -1560,134 +1726,52 @@ input[type=submit] {
 @media (max-width: 600px) {
   .quotes .card-left-right {
     max-width: 600px;
-    height: 500px;
+    height: 510px;
   }
 }
 @media (max-width: 414px) {
   .quotes .card-left-right {
     max-width: 414px;
+    height: 600px;
+  }
+}
+@media (max-width: 384px) {
+  .quotes .card-left-right {
+    max-width: 370px;
+    height: 600px;
+  }
+}
+@media (max-width: 360px) {
+  .quotes .card-left-right {
+    max-width: 350px;
+    height: 630px;
+  }
+}
+@media (max-width: 320px) {
+  .quotes .card-left-right {
+    max-width: 350px;
     height: 650px;
   }
 }
-@media (max-width: 360px) {
-  .quotes .card-left-right {
-    max-width: 350px;
-    height: 700px;
-  }
-}
-@media (max-width: 320px) {
-  .quotes .card-left-right {
-    max-width: 350px;
-    height: 820px;
-  }
-}
 .quotes .card-left-right .shalini {
+  max-width: 250px;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+.quotes .card-left-right .shalini img {
   max-width: 70px;
   width: 100%;
   height: 70px;
-  position: absolute;
-  top: 225px;
-  left: 75px;
+  margin-left: 0px;
 }
-@media (max-width: 1680px) {
-  .quotes .card-left-right .shalini {
-    top: 300px;
-  }
-}
-@media (max-width: 1440px) {
-  .quotes .card-left-right .shalini {
-    top: 320px;
-  }
-}
-@media (max-width: 1400px) {
-  .quotes .card-left-right .shalini {
-    top: 320px;
-  }
-}
-@media (max-width: 1024px) {
-  .quotes .card-left-right .shalini {
-    top: 300px;
-  }
-}
-@media (max-width: 600px) {
-  .quotes .card-left-right .shalini {
-    top: 370px;
-  }
-}
-@media (max-width: 414px) {
-  .quotes .card-left-right .shalini {
-    top: 540px;
-    left: 0px;
-  }
-}
-@media (max-width: 360px) {
-  .quotes .card-left-right .shalini {
-    top: 580px;
-    left: 0px;
-  }
-}
-@media (max-width: 320px) {
-  .quotes .card-left-right .shalini {
-    top: 700px;
-    left: 0px;
-  }
-}
-.quotes .card-left-right p {
+.quotes .card-left-right .shalini p {
   font-family: "Proxima Nova Alt Lt", sans-serif;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 38px;
   text-align: left;
   color: #848484;
-  position: absolute;
-  top: 225px;
-  left: 195px;
-}
-@media (max-width: 1680px) {
-  .quotes .card-left-right p {
-    top: 290px;
-  }
-}
-@media (max-width: 1440px) {
-  .quotes .card-left-right p {
-    top: 310px;
-  }
-}
-@media (max-width: 1400px) {
-  .quotes .card-left-right p {
-    top: 310px;
-  }
-}
-@media (max-width: 1024px) {
-  .quotes .card-left-right p {
-    top: 290px;
-  }
-}
-@media (max-width: 600px) {
-  .quotes .card-left-right p {
-    top: 360px;
-  }
-}
-@media (max-width: 414px) {
-  .quotes .card-left-right p {
-    top: 535px;
-    left: 120px;
-    font-size: 22px;
-  }
-}
-@media (max-width: 360px) {
-  .quotes .card-left-right p {
-    top: 580px;
-    left: 120px;
-    font-size: 19px;
-  }
-}
-@media (max-width: 320px) {
-  .quotes .card-left-right p {
-    top: 690px;
-    left: 120px;
-    font-size: 19px;
-  }
 }
 .quotes .card-left-right p::first-line {
   font-family: "Proxima Nova Alt Lt", sans-serif;
@@ -1696,32 +1780,6 @@ input[type=submit] {
   line-height: 38px;
   text-align: left;
   color: #000000;
-}
-.quotes .card-left-right h5 {
-  max-width: 808px;
-  width: 100%;
-  height: 196px;
-  font-family: "Proxima Nova Alt Lt", sans-serif;
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 41px;
-  color: #000000;
-  margin-left: 25px;
-}
-@media (max-width: 1440px) {
-  .quotes .card-left-right h5 {
-    height: 300px;
-  }
-}
-@media (max-width: 414px) {
-  .quotes .card-left-right h5 {
-    font-size: 24px;
-  }
-}
-@media (max-width: 360px) {
-  .quotes .card-left-right h5 {
-    font-size: 22px;
-  }
 }
 
 .s-5 {
@@ -1815,6 +1873,11 @@ input[type=submit] {
   cursor: pointer;
   opacity: 0.7;
 }
+@media (max-width: 384px) {
+  .s-5 .mycontainer .s5-card {
+    max-width: 340px;
+  }
+}
 @media (max-width: 360px) {
   .s-5 .mycontainer .s5-card {
     max-width: 310px;
@@ -1823,6 +1886,12 @@ input[type=submit] {
 @media (max-width: 320px) {
   .s-5 .mycontainer .s5-card {
     max-width: 290px;
+  }
+}
+@media (max-width: 384px) {
+  .s-5 .mycontainer .s5-card img {
+    max-width: 100%;
+    height: 100%;
   }
 }
 .s-5 .mycontainer .s5-card h4 {
@@ -1973,7 +2042,13 @@ input[type=submit] {
 @media (max-width: 414px) {
   .s-6 .mycontainer .s6-card {
     max-width: 370px;
-    height: 715px;
+    height: 615px;
+  }
+}
+@media (max-width: 384px) {
+  .s-6 .mycontainer .s6-card {
+    max-width: 350px;
+    height: 515px;
   }
 }
 @media (max-width: 360px) {
@@ -2157,6 +2232,13 @@ footer {
     max-width: 411px;
     width: 95%;
     gap: 100px;
+  }
+}
+@media (max-width: 384px) {
+  footer {
+    max-width: 384px;
+    width: 95%;
+    gap: 0px;
   }
 }
 @media (max-width: 360px) {
