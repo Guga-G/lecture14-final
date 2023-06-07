@@ -1754,7 +1754,7 @@ input[type=submit] {
 @media (max-width: 375px) {
   .quotes .card-left-right {
     max-width: 370px;
-    height: 610px;
+    height: 630px;
   }
 }
 @media (max-width: 360px) {
