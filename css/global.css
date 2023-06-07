@@ -817,7 +817,7 @@ header .fa-bars {
 }
 @media (max-width: 320px) {
   .s-3 .mycontainer .card-container {
-    max-width: 300px;
+    max-width: 290px;
   }
 }
 .s-3 .mycontainer .mycard {
@@ -865,7 +865,7 @@ header .fa-bars {
 }
 @media (max-width: 320px) {
   .s-3 .mycontainer .mycard {
-    max-width: 300px;
+    max-width: 290px;
   }
 }
 @media (max-width: 768px) {
@@ -1079,6 +1079,11 @@ header .fa-bars {
     max-width: 370px;
   }
 }
+@media (max-width: 384px) {
+  .text {
+    max-width: 350px;
+  }
+}
 @media (max-width: 360px) {
   .text {
     max-width: 330px;
@@ -1104,7 +1109,7 @@ header .fa-bars {
     max-width: 370px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 384px) {
   .submitform {
     max-width: 350px;
   }
@@ -1701,6 +1706,11 @@ input[type=submit] {
     margin-right: 35px;
   }
 }
+@media (max-width: 1920px) {
+  .quotes .card-left-right {
+    height: 450px;
+  }
+}
 @media (max-width: 1680px) {
   .quotes .card-left-right {
     height: 450px;
@@ -1708,12 +1718,12 @@ input[type=submit] {
 }
 @media (max-width: 1440px) {
   .quotes .card-left-right {
-    height: 450px;
+    height: 470px;
   }
 }
 @media (max-width: 1400px) {
   .quotes .card-left-right {
-    height: 470px;
+    height: 480px;
   }
 }
 @media (max-width: 1024px) {
@@ -1741,16 +1751,22 @@ input[type=submit] {
     height: 600px;
   }
 }
+@media (max-width: 375px) {
+  .quotes .card-left-right {
+    max-width: 370px;
+    height: 610px;
+  }
+}
 @media (max-width: 360px) {
   .quotes .card-left-right {
     max-width: 350px;
-    height: 630px;
+    height: 650px;
   }
 }
 @media (max-width: 320px) {
   .quotes .card-left-right {
     max-width: 350px;
-    height: 650px;
+    height: 670px;
   }
 }
 .quotes .card-left-right .shalini {
