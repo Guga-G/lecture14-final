@@ -347,6 +347,9 @@ header .fa-bars {
   padding-bottom: 6px;
   padding-left: 19px;
 }
+.header-2nd-img:hover {
+  background-color: lightgray;
+}
 .header-2nd-img h4 {
   font-family: "Proxima Nova Alt Lt", sans-serif;
   color: white;
@@ -360,6 +363,9 @@ header .fa-bars {
   font-size: 19px;
   color: white;
   font-weight: 600;
+}
+.header-2nd-img h4 a:hover {
+  color: black;
 }
 .header-2nd-img h4 {
   font-family: "Proxima Nova Alt Lt", sans-serif;

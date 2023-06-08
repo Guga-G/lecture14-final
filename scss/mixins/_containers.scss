@@ -19,6 +19,9 @@
     padding-right: 19px;
     padding-bottom: 6px;
     padding-left: 19px;
+    &:hover {
+        background-color: lightgray;
+    }
     h4 {
         font-family: "Proxima Nova Alt Lt", sans-serif;
         color: white;
@@ -32,6 +35,9 @@
         font-size: 19px;
         color: white;
         font-weight: 600;
+        &:hover {
+            color: black;
+        }
     }
 }
 
@@ -87,7 +93,6 @@
         @media (max-width: 360px) {
             font-size: 26px;
         }
-
     }
 }
 
