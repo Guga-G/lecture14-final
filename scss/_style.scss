@@ -342,6 +342,9 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        &:hover {
+            background-color: lightgray;
+        }
         @media (max-width: 1024px) {
             max-width: 130px;
         }
@@ -353,6 +356,9 @@ header {
             font-weight: 600;
             font-size: 21px;
             color: white;
+            &:hover {
+                color: black;
+            }
             @media (max-width: 800px) {
                 font-size: 15px;
             }
@@ -897,6 +903,10 @@ input[type="submit"] {
                 max-width: 280px;
                 height: 300px;
             }
+            &:hover {
+                cursor: pointer;
+                opacity: 0.7;
+            }
             h3 {
                 @media (max-width: 414px) {
                     position: absolute;
@@ -1161,75 +1171,6 @@ input[type="submit"] {
                 color: #848484;
             }
         }
-        // }
-        // @media (max-width: 1680px) {
-        //     top: 300px;
-        // }
-        // @media (max-width: 1440px) {
-        //     top: 320px;
-        // }
-        // @media (max-width: 1400px) {
-        //     top: 320px;
-        // }
-        // @media (max-width: 1024px) {
-        //     top: 300px;
-        // }
-        // @media (max-width: 600px) {
-        //     top: 370px;
-        // }
-        // @media (max-width: 414px) {
-        //     top: 540px;
-        //     left: 0px;
-        // }
-        // @media (max-width: 360px) {
-        //     top: 580px;
-        //     left: 0px;
-        // }
-        // @media (max-width: 320px) {
-        //     top: 700px;
-        //     left: 0px;
-        // }
-        // p {
-        //     font-family: "Proxima Nova Alt Lt", sans-serif;
-        //     font-size: 28px;
-        //     font-weight: 400;
-        //     line-height: 38px;
-        //     text-align: left;
-        //     color: #848484;
-        //     // position: absolute;
-        //     // top: 225px;
-        //     // left: 195px;
-        //     @media (max-width: 1680px) {
-        //         top: 290px;
-        //     }
-        //     @media (max-width: 1440px) {
-        //         top: 310px;
-        //     }
-        //     @media (max-width: 1400px) {
-        //         top: 310px;
-        //     }
-        //     @media (max-width: 1024px) {
-        //         top: 290px;
-        //     }
-        //     @media (max-width: 600px) {
-        //         top: 360px;
-        //     }
-        //     @media (max-width: 414px) {
-        //         top: 535px;
-        //         left: 120px;
-        //         font-size: 22px;
-        //     }
-        //     @media (max-width: 360px) {
-        //         top: 580px;
-        //         left: 120px;
-        //         font-size: 19px;
-        //     }
-        //     @media (max-width: 320px) {
-        //         top: 690px;
-        //         left: 120px;
-        //         font-size: 19px;
-        //     }
-        // }
         p::first-line {
             font-family: "Proxima Nova Alt Lt", sans-serif;
             font-size: 22px;
@@ -1599,6 +1540,10 @@ footer {
         max-width: 45px;
         width: 100%;
         height: 45px;
+        &:hover {
+            cursor: pointer;
+            opacity: 0.7;
+        }
     }
     h5 {
         font-family: "Proxima Nova", sans-serif;
@@ -1789,6 +1734,10 @@ footer {
         .places-card {
             @include mycards(column, 270px);
             height: 320px;
+            &:hover {
+                cursor: pointer;
+                opacity: 0.7;
+            }
             @media (max-width: 1360px) {
                 @include mycards(column, 320px);
             }
